@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxshadow</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: rgb(233, 38, 38);
+            /* box-shadow:10px 10px 10px #000000; */
+            transition: .5s;
+            float: left;
+            margin: 10px;
+
+        }
+        .box1:hover {
+            box-shadow:10px 10px 10px #000;
+        }
+        .box2:hover {
+            box-shadow: 2px 3px 10px 2px rgb(44, 43, 43);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+
+</body>
+</html>

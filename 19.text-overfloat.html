@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overfloat</title>
+    <style>
+        .container {
+            width: 200px;
+            display: flex;
+
+        }
+        .box {
+            margin: 10px;
+            background-color:green;
+            overflow: hidden;
+            display:-webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, expedita, excepturi nihil, voluptates exercitationem consectetur sunt sit totam iste amet maiores culpa recusandae quisquam saepe. Unde quia modi nostrum odit!
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique recusandae perferendis delectus cupiditate repellendus voluptate aliquid doloremque fugiat architecto nihil cumque dolorum, obcaecati placeat, natus amet sint praesentium fugit vel.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi aspernatur quasi nobis expedita fugit quo porro aliquid ut asperiores obcaecati maxime magnam, deleniti, aperiam, inventore excepturi et sunt delectus velit!
+        </div>
+
+    </div>
+</body>
+</html>
